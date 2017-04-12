@@ -1,0 +1,67 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context="cn.xwjrfw.p2p.activity.main.ChoiceFragment">
+    <include layout="@layout/layout_title"/>
+    
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp40">
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_marginEnd="@dimen/dp10"
+            android:layout_marginRight="@dimen/dp10"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+            <TextView
+                android:id="@+id/textView_choice_bid"
+                android:text="@string/test"
+                android:layout_centerVertical="true"
+                android:layout_alignParentEnd="true"
+                android:gravity="center"
+                android:layout_alignParentRight="true"
+                android:layout_width="@dimen/dp60"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:background="@color/colorPrimary"
+                android:layout_alignParentBottom="true"
+                android:layout_alignLeft="@id/textView_choice_bid"
+                android:layout_alignRight="@id/textView_choice_bid"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/dp2" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_marginLeft="@dimen/dp10"
+            android:layout_marginStart="@dimen/dp10"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+            <TextView
+                android:id="@+id/textView_week_profit"
+                android:text="@string/test"
+                android:layout_centerVertical="true"
+                android:gravity="center"
+                android:layout_width="@dimen/dp60"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:background="@color/colorPrimary"
+                android:layout_alignParentBottom="true"
+                android:layout_alignLeft="@id/textView_week_profit"
+                android:layout_alignRight="@id/textView_week_profit"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/dp2" />
+        </RelativeLayout>
+
+    </LinearLayout>
+    <com.xwjr.utilcode.customview.MyListView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </com.xwjr.utilcode.customview.MyListView>
+
+</LinearLayout>

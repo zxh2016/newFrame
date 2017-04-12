@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_test"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="cn.xwjrfw.p2p.activity.TestFragment">
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp200"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:background="@color/colorAccent"
+        android:orientation="horizontal">
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/linearLayout"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/save_user_info"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp30"
+            android:text="存储用户信息" />
+
+        <TextView
+            android:id="@+id/get_user_info"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp30"
+            android:text="获取用户信息" />
+
+        <TextView
+            android:id="@+id/clear_user_info"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp30"
+            android:text="清除用户信息" />
+        <com.xwjr.utilcode.customview.MyWheelView
+            android:visibility="gone"
+            android:id="@+id/myWheelView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        </com.xwjr.utilcode.customview.MyWheelView>
+
+        <TextView
+            android:id="@+id/click_to_count_down"
+            android:text="click_to_count_down"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        </TextView>
+    </LinearLayout>
+
+</RelativeLayout>

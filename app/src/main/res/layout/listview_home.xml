@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:layout_marginTop="@dimen/dp10"
+    android:layout_marginLeft="@dimen/dp10"
+    android:layout_marginRight="@dimen/dp10"
+    android:orientation="vertical">
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="@dimen/dp60"
+                android:layout_height="@dimen/dp20"
+                android:background="@color/colorPrimary" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/dp10"
+                android:layout_weight="1"
+                android:text="@string/test" />
+
+            <SeekBar
+                android:layout_width="@dimen/dp100"
+                android:layout_height="@dimen/dp10"
+                android:layout_gravity="center_vertical"
+                android:progress="100" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/test" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="@dimen/dp60"
+                android:layout_height="@dimen/dp30"
+                android:background="@color/black" />
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dp10">
+
+            <TextView
+                android:id="@+id/textView_annualized_earn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/dp15"
+                android:layout_marginStart="@dimen/dp15"
+                android:text="@string/test" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@id/textView_annualized_earn"
+                android:layout_alignStart="@id/textView_annualized_earn"
+                android:layout_below="@id/textView_annualized_earn"
+                android:text="@string/test" />
+
+            <TextView
+                android:id="@+id/textView_deadline_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@id/textView_annualized_earn"
+                android:layout_marginLeft="@dimen/dp80"
+                android:layout_marginStart="@dimen/dp80"
+                android:layout_toEndOf="@id/textView_annualized_earn"
+                android:layout_toRightOf="@id/textView_annualized_earn"
+                android:text="@string/test" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@id/textView_deadline_time"
+                android:layout_alignStart="@id/textView_deadline_time"
+                android:layout_below="@id/textView_deadline_time"
+                android:text="@string/test" />
+
+            <TextView
+                android:id="@+id/textView_financing_amount"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@id/textView_deadline_time"
+                android:layout_marginLeft="@dimen/dp80"
+                android:layout_marginStart="@dimen/dp80"
+                android:layout_toEndOf="@id/textView_deadline_time"
+                android:layout_toRightOf="@id/textView_deadline_time"
+                android:text="@string/test" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@id/textView_financing_amount"
+                android:layout_alignStart="@id/textView_financing_amount"
+                android:layout_below="@id/textView_financing_amount"
+                android:text="@string/test" />
+        </RelativeLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp10" />
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="@dimen/dp40"
+        android:layout_height="@dimen/dp40"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:src="@mipmap/ic_launcher" />
+</RelativeLayout>

@@ -1,0 +1,189 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/home_bg"
+    android:orientation="vertical"
+    tools:context="cn.xwjrfw.p2p.activity.main.HomeFragment">
+
+
+            <include layout="@layout/layout_title" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dp150">
+
+                <ImageView
+                    android:id="@+id/imageView"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/dp150"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:scaleType="centerCrop"
+                    android:src="@color/colorPrimaryDark" />
+
+                <TextView
+                    android:id="@+id/text_turnover_money"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/dp15"
+                    android:layout_marginStart="@dimen/dp15"
+                    android:layout_marginTop="@dimen/dp10"
+                    android:text="@string/test" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignLeft="@id/text_turnover_money"
+                    android:layout_alignStart="@id/text_turnover_money"
+                    android:layout_below="@id/text_turnover_money"
+                    android:layout_marginTop="@dimen/dp5"
+                    android:text="@string/test"
+                    android:textSize="@dimen/sp25" />
+
+                <TextView
+                    android:id="@+id/text_notice"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginBottom="@dimen/dp10"
+                    android:layout_marginEnd="@dimen/dp15"
+                    android:layout_marginRight="@dimen/dp15"
+                    android:text="@string/testtest" />
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_above="@id/text_notice"
+                    android:layout_alignEnd="@id/text_notice"
+                    android:layout_alignRight="@id/text_notice"
+                    android:layout_marginBottom="@dimen/dp5"
+                    android:text="@string/test" />
+
+
+            </RelativeLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dp80"
+                android:background="@color/white"
+                android:orientation="horizontal">
+
+                <RelativeLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1">
+
+                    <ImageView
+                        android:id="@+id/image_finance_management"
+                        android:layout_width="@dimen/dp50"
+                        android:layout_height="@dimen/dp50"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="@dimen/dp20"
+                        android:layout_marginStart="@dimen/dp20"
+                        android:scaleType="centerCrop"
+                        android:src="@mipmap/ic_launcher" />
+
+                    <TextView
+                        android:id="@+id/textView_finance_management_title"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/dp10"
+                        android:layout_marginStart="@dimen/dp10"
+                        android:layout_marginTop="@dimen/dp20"
+                        android:layout_toEndOf="@id/image_finance_management"
+                        android:layout_toRightOf="@id/image_finance_management"
+                        android:text="@string/test" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignLeft="@id/textView_finance_management_title"
+                        android:layout_alignStart="@id/textView_finance_management_title"
+                        android:layout_below="@id/textView_finance_management_title"
+                        android:layout_marginTop="@dimen/dp10"
+                        android:text="@string/test" />
+
+                    <ImageView
+                        android:layout_width="@dimen/dp20"
+                        android:layout_height="@dimen/dp10"
+                        android:layout_alignBottom="@id/textView_finance_management_title"
+                        android:layout_marginLeft="@dimen/dp10"
+                        android:layout_marginStart="@dimen/dp10"
+                        android:layout_toEndOf="@id/textView_finance_management_title"
+                        android:layout_toRightOf="@id/textView_finance_management_title"
+                        android:background="@color/colorPrimary" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1">
+
+                    <ImageView
+                        android:id="@+id/image_hope_treasure"
+                        android:layout_width="@dimen/dp50"
+                        android:layout_height="@dimen/dp50"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="@dimen/dp20"
+                        android:layout_marginStart="@dimen/dp20"
+                        android:scaleType="centerCrop"
+                        android:src="@mipmap/ic_launcher" />
+
+                    <TextView
+                        android:id="@+id/textView_hope_treasure"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/dp10"
+                        android:layout_marginStart="@dimen/dp10"
+                        android:layout_marginTop="@dimen/dp20"
+                        android:layout_toEndOf="@id/image_hope_treasure"
+                        android:layout_toRightOf="@id/image_hope_treasure"
+                        android:text="@string/test" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignLeft="@id/textView_hope_treasure"
+                        android:layout_alignStart="@id/textView_hope_treasure"
+                        android:layout_below="@id/textView_hope_treasure"
+                        android:layout_marginTop="@dimen/dp10"
+                        android:text="@string/test" />
+
+                    <ImageView
+                        android:layout_width="@dimen/dp20"
+                        android:layout_height="@dimen/dp10"
+                        android:layout_alignBottom="@id/textView_hope_treasure"
+                        android:layout_marginLeft="@dimen/dp10"
+                        android:layout_marginStart="@dimen/dp10"
+                        android:layout_toEndOf="@id/textView_hope_treasure"
+                        android:layout_toRightOf="@id/textView_hope_treasure"
+                        android:background="@color/colorPrimary" />
+                </RelativeLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dp100"
+                android:layout_margin="@dimen/dp10"
+                android:background="@color/colorPrimary">
+
+            </LinearLayout>
+    <com.xwjr.utilcode.customview.PullToRefreshView.SwipyRefreshLayout
+        android:id="@+id/swipyRefreshLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="none"
+        app:direction="both">
+        <com.xwjr.utilcode.customview.MyListView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        </com.xwjr.utilcode.customview.MyListView>
+    </com.xwjr.utilcode.customview.PullToRefreshView.SwipyRefreshLayout>
+</LinearLayout>

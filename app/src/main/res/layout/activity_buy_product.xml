@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_buy_product"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/home_bg"
+    android:orientation="vertical"
+    tools:context="cn.xwjrfw.p2p.activity.fund.BuyProductActivity">
+
+    <include layout="@layout/layout_title" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp50"
+        android:layout_marginTop="@dimen/dp1"
+        android:background="@color/white">
+
+        <ImageView
+            android:id="@+id/imageView_search_view"
+            android:layout_width="@dimen/dp20"
+            android:layout_height="@dimen/dp20"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/dp10"
+            android:src="@mipmap/ic_launcher" />
+
+        <Button
+            android:id="@+id/button_search"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:layout_marginBottom="@dimen/dp5"
+            android:layout_marginRight="@dimen/dp10"
+            android:layout_marginTop="@dimen/dp5"
+            android:background="@drawable/selector_button_red_gray"
+            android:gravity="center"
+            android:paddingLeft="@dimen/dp20"
+            android:paddingRight="@dimen/dp20"
+            android:text="@string/search"
+            android:textColor="@color/white" />
+
+        <com.xwjr.utilcode.customview.MyEditTextHaveDeleteButton
+            android:id="@+id/editText_search"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="@dimen/dp5"
+            android:layout_marginLeft="@dimen/dp40"
+            android:layout_marginTop="@dimen/dp5"
+            android:layout_toLeftOf="@id/button_search"
+            android:background="@color/white"
+            android:hint="@string/search"
+            android:paddingLeft="@dimen/dp10"
+            android:paddingRight="@dimen/dp10"
+            android:singleLine="true"
+            android:textSize="@dimen/sp14" />
+
+
+    </RelativeLayout>
+
+    <com.xwjr.utilcode.customview.MyListView
+        android:id="@+id/myListView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="none">
+
+    </com.xwjr.utilcode.customview.MyListView>
+</LinearLayout>

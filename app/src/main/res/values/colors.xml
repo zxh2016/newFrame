@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#f1eeee</color>
+    <color name="colorPrimaryDark">#f1eeee</color>
+    <color name="colorAccent">#f1eeee</color>
+    <color name="black">#000000</color>
+    <color name="white">#ffffff</color>
+    <color name="home_bg">#eeeeee</color>
+    <color name="transparent">#00000000</color>
+    <color name="text_red">#ff4a00</color>
+    <color name="main_theme">#3399cc</color>
+    <color name="text666">#666666</color>
+    <color name="text333">#333333</color>
+    <color name="text999">#999999</color>
+    <color name="textccc">#cccccc</color>
+</resources>

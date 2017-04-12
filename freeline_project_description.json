@@ -1,0 +1,169 @@
+{
+    "android_gradle_plugin_version": "2.2.2",
+    "apk_path": "D:\\AndroidCode\\xwjr\\app\\build\\outputs\\apk\\app-debug.apk",
+    "auto_dependency": true,
+    "build_cache_dir": "D:\\AndroidCode\\xwjr\\app\\build\\freeline",
+    "build_directory": "D:\\AndroidCode\\xwjr\\app\\build",
+    "build_script": "gradlew.bat :app:assembleDebug",
+    "build_script_work_directory": "",
+    "build_tools_directory": "D:\\AndroidSDK\\build-tools\\25.0.2",
+    "build_tools_version": "25.0.2",
+    "check_sources_md5": [
+        
+    ],
+    "compile_sdk_directory": "D:\\AndroidSDK\\platforms\\android-25",
+    "compile_sdk_version": "android-25",
+    "databinding": [
+        
+    ],
+    "databinding_modules": [
+        
+    ],
+    "debug_package": "cn.xwjrfwceshi.p2p",
+    "exclude_dep_res_paths": [
+        
+    ],
+    "extra_dep_res_paths": [
+        
+    ],
+    "freeline_cache_dir": "D:\\AndroidCode\\xwjr",
+    "freeline_gradle_plugin_version": "0.8.6",
+    "ignore_resource_ids": [
+        "avd_hide_password_1",
+        "avd_hide_password_2",
+        "avd_hide_password_3",
+        "avd_show_password_1",
+        "avd_show_password_2",
+        "avd_show_password_3"
+    ],
+    "java_home": "C:\\Program Files\\Java\\jdk1.8.0_121",
+    "launcher": "cn.xwjrfw.p2p.activity.MainActivity",
+    "main_assets_directory": [
+        "D:\\AndroidCode\\xwjr\\app\\src\\debug\\assets",
+        "D:\\AndroidCode\\xwjr\\app\\src\\main\\assets"
+    ],
+    "main_jniLibs_directory": [
+        "D:\\AndroidCode\\xwjr\\app\\src\\debug\\jniLibs",
+        "D:\\AndroidCode\\xwjr\\app\\src\\main\\jniLibs"
+    ],
+    "main_jni_directory": [
+        "D:\\AndroidCode\\xwjr\\app\\src\\debug\\jni",
+        "D:\\AndroidCode\\xwjr\\app\\src\\main\\jni"
+    ],
+    "main_manifest_path": "D:\\AndroidCode\\xwjr\\app\\src\\main\\AndroidManifest.xml",
+    "main_project_dir": "app",
+    "main_project_name": "app",
+    "main_r_path": "D:\\AndroidCode\\xwjr\\app\\build\\generated\\source\\r\\debug\\R.java",
+    "main_res_directory": [
+        "D:\\AndroidCode\\xwjr\\app\\src\\debug\\res",
+        "D:\\AndroidCode\\xwjr\\app\\src\\main\\res"
+    ],
+    "main_src_directory": [
+        "D:\\AndroidCode\\xwjr\\app\\src\\debug\\java",
+        "D:\\AndroidCode\\xwjr\\app\\src\\main\\java"
+    ],
+    "module_dependencies": {
+        "app": [
+            "jsbridge",
+            "utilcode"
+        ],
+        "jsbridge": [
+            
+        ],
+        "utilcode": [
+            
+        ]
+    },
+    "modules": [
+        {
+            "name": "app",
+            "path": "D:\\AndroidCode\\xwjr\\app"
+        },
+        {
+            "name": "jsbridge",
+            "path": "D:\\AndroidCode\\xwjr\\jsbridge"
+        },
+        {
+            "name": "utilcode",
+            "path": "D:\\AndroidCode\\xwjr\\utilcode"
+        }
+    ],
+    "package": "cn.xwjrfw.p2p",
+    "product_flavor": "",
+    "project_source_sets": {
+        "app": {
+            "main_assets_directory": [
+                "D:\\AndroidCode\\xwjr\\app\\src\\debug\\assets",
+                "D:\\AndroidCode\\xwjr\\app\\src\\main\\assets"
+            ],
+            "main_jniLibs_directory": [
+                "D:\\AndroidCode\\xwjr\\app\\src\\debug\\jniLibs",
+                "D:\\AndroidCode\\xwjr\\app\\src\\main\\jniLibs"
+            ],
+            "main_jni_directory": [
+                "D:\\AndroidCode\\xwjr\\app\\src\\debug\\jni",
+                "D:\\AndroidCode\\xwjr\\app\\src\\main\\jni"
+            ],
+            "main_manifest_path": "D:\\AndroidCode\\xwjr\\app\\src\\main\\AndroidManifest.xml",
+            "main_res_directory": [
+                "D:\\AndroidCode\\xwjr\\app\\src\\debug\\res",
+                "D:\\AndroidCode\\xwjr\\app\\src\\main\\res"
+            ],
+            "main_src_directory": [
+                "D:\\AndroidCode\\xwjr\\app\\src\\debug\\java",
+                "D:\\AndroidCode\\xwjr\\app\\src\\main\\java"
+            ]
+        },
+        "jsbridge": {
+            "main_assets_directory": [
+                "D:\\AndroidCode\\xwjr\\jsbridge\\src\\release\\assets",
+                "D:\\AndroidCode\\xwjr\\jsbridge\\src\\main\\assets"
+            ],
+            "main_jniLibs_directory": [
+                "D:\\AndroidCode\\xwjr\\jsbridge\\src\\release\\jniLibs",
+                "D:\\AndroidCode\\xwjr\\jsbridge\\src\\main\\jniLibs"
+            ],
+            "main_jni_directory": [
+                "D:\\AndroidCode\\xwjr\\jsbridge\\src\\release\\jni",
+                "D:\\AndroidCode\\xwjr\\jsbridge\\src\\main\\jni"
+            ],
+            "main_manifest_path": "D:\\AndroidCode\\xwjr\\jsbridge\\src\\main\\AndroidManifest.xml",
+            "main_res_directory": [
+                "D:\\AndroidCode\\xwjr\\jsbridge\\src\\release\\res",
+                "D:\\AndroidCode\\xwjr\\jsbridge\\src\\main\\res"
+            ],
+            "main_src_directory": [
+                "D:\\AndroidCode\\xwjr\\jsbridge\\src\\release\\java",
+                "D:\\AndroidCode\\xwjr\\jsbridge\\src\\main\\java"
+            ]
+        },
+        "utilcode": {
+            "main_assets_directory": [
+                "D:\\AndroidCode\\xwjr\\utilcode\\src\\release\\assets",
+                "D:\\AndroidCode\\xwjr\\utilcode\\src\\main\\assets"
+            ],
+            "main_jniLibs_directory": [
+                "D:\\AndroidCode\\xwjr\\utilcode\\src\\release\\jniLibs",
+                "D:\\AndroidCode\\xwjr\\utilcode\\src\\main\\jniLibs"
+            ],
+            "main_jni_directory": [
+                "D:\\AndroidCode\\xwjr\\utilcode\\src\\release\\jni",
+                "D:\\AndroidCode\\xwjr\\utilcode\\src\\main\\jni"
+            ],
+            "main_manifest_path": "D:\\AndroidCode\\xwjr\\utilcode\\src\\main\\AndroidManifest.xml",
+            "main_res_directory": [
+                "D:\\AndroidCode\\xwjr\\utilcode\\src\\release\\res",
+                "D:\\AndroidCode\\xwjr\\utilcode\\src\\main\\res"
+            ],
+            "main_src_directory": [
+                "D:\\AndroidCode\\xwjr\\utilcode\\src\\release\\java",
+                "D:\\AndroidCode\\xwjr\\utilcode\\src\\main\\java"
+            ]
+        }
+    },
+    "project_type": "gradle",
+    "root_dir": "D:\\AndroidCode\\xwjr",
+    "sdk_directory": "D:\\AndroidSDK",
+    "use_jdk8": true,
+    "use_system_gradle": false
+}
